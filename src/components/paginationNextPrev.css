@@ -1,0 +1,21 @@
+.buttons{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.buttons a{
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.activebutton a{
+    color : black;
+    background-color: rgb(15, 161, 113);
+}
