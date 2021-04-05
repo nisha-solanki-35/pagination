@@ -1,0 +1,1 @@
+export const DISPLAY_TABLE = "DISPLAY_TABLE"

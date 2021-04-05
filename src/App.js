@@ -1,12 +1,13 @@
 import React from "react";
 import './App.css';
-import Pagination from "./components/Pagination";
+// import Pagination from "./components/Pagination";
+import PaginationReactTable from "./components/PaginationReactTable";
 // import PaginationNextPrev from "./components/PaginationNextPrev";
 
 function App() {
   return (
     <div className="App">
-      <Pagination></Pagination>
+      <PaginationReactTable></PaginationReactTable>
     </div>
   );
 }
